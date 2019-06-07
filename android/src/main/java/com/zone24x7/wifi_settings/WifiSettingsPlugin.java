@@ -62,10 +62,13 @@ public class WifiSettingsPlugin implements MethodCallHandler {
     public void onMethodCall(MethodCall call, Result result) {
         switch (call.method) {
             case "connectToNetwork":
-                this.connectToNetwork(call, result);
+                this.connect(call, result);
                 break;
             case "listWifiNetworks":
-                this.listWifiNetworks(call, result);
+                this.listWifiNetworks(result);
+                break;
+            case "disconnect":
+                this.disconnect(result);
                 break;
             default:
                 result.notImplemented();
@@ -80,21 +83,20 @@ public class WifiSettingsPlugin implements MethodCallHandler {
      * _location() returns true. Because all 3 of them is required to
      * do this operation.
      *
-     * @param call   {@link MethodCall}
      * @param result {@link Result}
      */
-    private void listWifiNetworks(MethodCall call, Result result) {
+    private void listWifiNetworks(Result result) {
 
         try {
 
             _isReady();
-
             log("listWifiNetworks() called");
             List<Map<String, String>> list = new ArrayList<>();
 
             for (ScanResult sr : wifiManager.getScanResults()) {
                 Map<String, String> m = new HashMap<>();
                 m.put("ssid", sr.SSID);
+                m.put("bssid", sr.BSSID);
                 m.put("capabilities", sr.capabilities);
                 m.put("level", String.valueOf(sr.level));
                 m.put("frequency", String.valueOf(sr.frequency));
@@ -122,7 +124,7 @@ public class WifiSettingsPlugin implements MethodCallHandler {
      * @link https://developer.android.com/reference/android/net/_wifi/ScanResult.html#capabilities
      * @link https://stackoverflow.com/questions/8818290/how-do-i-connect-to-a-specific-wi-fi-network-in-android-programmatically
      */
-    private void connectToNetwork(MethodCall call, Result result) {
+    private void connect(MethodCall call, Result result) {
 
         try {
 
@@ -140,6 +142,16 @@ public class WifiSettingsPlugin implements MethodCallHandler {
             result.error(e.getMessage(), null, e);
         }
 
+    }
+
+    private void disconnect(Result result) {
+        try {
+            _isReady();
+            log("disconnect() called");
+            result.success(this.wifiManager.disconnect());
+        } catch (RuntimeException e) {
+            result.error(e.getMessage(), null, e);
+        }
     }
 
     // Internal methods only
