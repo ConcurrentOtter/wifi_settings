@@ -18,4 +18,8 @@ class WifiSettings {
     args['password'] = password;
     return await _channel.invokeMethod('connectToNetwork', args);
   }
+
+  Future<bool> disconnect() async {
+    return await _channel.invokeMethod('disconnect');
+  }
 }
