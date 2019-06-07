@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12737a1-2983-4b17-ab09-8e5f3730b23a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/wifi_settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/wifi_settings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -37,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="431">
+              <caret line="491" column="56" lean-forward="true" selection-start-line="491" selection-start-column="56" selection-end-line="491" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#WifiSettingsPlugin#0;class#WifiSettingsPlugin#0" />
@@ -53,50 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/ScanResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="47" column="23" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="1364" column="19" selection-start-line="1364" selection-start-column="19" selection-end-line="1364" selection-end-column="19" />
-              <folding>
-                <element signature="e#59088#59089#0" expanded="true" />
-                <element signature="e#59126#59127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="6" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WiFiConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1703">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setCredentials#0;class#WiFiConnector#0" />
@@ -104,6 +65,28 @@
                 <element signature="method#manager#0;class#WiFiConnector#0" />
                 <element signature="e#8308#8309#0" expanded="true" />
                 <element signature="e#8364#8365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="1036" column="58" lean-forward="true" selection-start-line="1036" selection-start-column="58" selection-end-line="1036" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2514">
+              <caret line="1462" column="16" selection-start-line="1462" selection-start-column="16" selection-end-line="1462" selection-end-column="16" />
+              <folding>
+                <element signature="e#59088#59089#0" expanded="true" />
+                <element signature="e#59126#59127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,6 +107,7 @@
       <find>NETWO</find>
       <find>KOHLI</find>
       <find>enableNetwor</find>
+      <find>passw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,8 +130,8 @@
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WiFiConnector.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/EC.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java" />
         <option value="$PROJECT_DIR$/lib/wifi_settings.dart" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java" />
       </list>
     </option>
   </component>
@@ -172,6 +156,62 @@
             <path>
               <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zone24x7" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zone24x7" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wifi_settings" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="wifi_settings" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -288,7 +328,7 @@
     <frame x="1406" y="-11" width="1881" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.17948718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.17948718" />
       <window_info id="Captures" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -299,12 +339,12 @@
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info id="UI Designer" order="9" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32976446" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.16059957" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" visible="true" weight="0.15987125" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32976446" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" weight="0.5321199" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.03218884" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.21566524" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -447,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="254" column="41" selection-start-line="254" selection-start-column="41" selection-end-line="254" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/EC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -468,36 +501,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WiFiConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1703">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setCredentials#0;class#WiFiConnector#0" />
-            <element signature="method#openNetworkConf#0;class#WiFiConnector#0" />
-            <element signature="method#manager#0;class#WiFiConnector#0" />
-            <element signature="e#8308#8309#0" expanded="true" />
-            <element signature="e#8364#8365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/ScanResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="47" column="23" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="1364" column="19" selection-start-line="1364" selection-start-column="19" selection-end-line="1364" selection-end-column="19" />
-          <folding>
-            <element signature="e#59088#59089#0" expanded="true" />
-            <element signature="e#59126#59127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,10 +532,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2514">
+          <caret line="1462" column="16" selection-start-line="1462" selection-start-column="16" selection-end-line="1462" selection-end-column="16" />
+          <folding>
+            <element signature="e#59088#59089#0" expanded="true" />
+            <element signature="e#59126#59127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/net/wifi/WifiConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="1036" column="58" lean-forward="true" selection-start-line="1036" selection-start-column="58" selection-end-line="1036" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WiFiConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#setCredentials#0;class#WiFiConnector#0" />
+            <element signature="method#openNetworkConf#0;class#WiFiConnector#0" />
+            <element signature="method#manager#0;class#WiFiConnector#0" />
+            <element signature="e#8308#8309#0" expanded="true" />
+            <element signature="e#8364#8365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/zone24x7/wifi_settings/WifiSettingsPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="431">
+          <caret line="491" column="56" lean-forward="true" selection-start-line="491" selection-start-column="56" selection-end-line="491" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#WifiSettingsPlugin#0;class#WifiSettingsPlugin#0" />
